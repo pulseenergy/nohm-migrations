@@ -3,6 +3,10 @@
   "description": "Migrations framework for Nohm Redis ORM",
   "author": "Pulse Energy",
   "version": "0.0.4",
+  "repository" : { 
+    "type" : "git", 
+    "url" : "https://github.com/pulseenergy/nohm-migrations"
+  },
   "engines": {
     "node": "0.8.x"
   },
