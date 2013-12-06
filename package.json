@@ -2,7 +2,7 @@
   "name": "nohm-migrations",
   "description": "Migrations framework for Nohm Redis ORM",
   "author": "Pulse Energy",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "repository" : { 
     "type" : "git", 
     "url" : "git://github.com/pulseenergy/nohm-migrations"
@@ -11,8 +11,8 @@
     "node": "0.8.x"
   },
   "dependencies": {
-    "underscore": "1.4.x",
-	  "redis": "0.7.x",
-	  "nohm": "0.9.x"
+    "underscore": "1.5.2",
+    "redis": "0.9.1",
+    "nohm": "0.9.x"
   }
 }
