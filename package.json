@@ -8,11 +8,11 @@
     "url" : "git://github.com/pulseenergy/nohm-migrations"
   },
   "engines": {
-    "node": "0.8.x"
+    "node": "> 0.8"
   },
   "dependencies": {
-    "underscore": "1.5.2",
-    "redis": "0.9.1",
+    "underscore": "1.5.x",
+    "redis": "0.9.x",
     "nohm": "0.9.x"
   }
 }
