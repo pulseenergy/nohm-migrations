@@ -1,3 +1,3 @@
-exports.run = function (done, nohm) {
-	nohm.client.rpush('nohm-migrations-test-key', 'first', done);
+exports.run = function (done) {
+	this.client.rpush('nohm-migrations-test-key', 'first', done);
 };
