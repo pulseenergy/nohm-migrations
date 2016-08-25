@@ -20,7 +20,7 @@ client.del(['test/migrations', 'nohm-migrations-test-key'], function (err) {
 			}
 
 			assert.deepEqual(values, ['first', 'second']);
-			client.end();
+			client.quit();
 		});
 	});
 });
