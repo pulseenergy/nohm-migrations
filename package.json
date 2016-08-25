@@ -19,5 +19,8 @@
     "url": "https://github.com/pulseenergy/nohm-migrations/issues"
   },
   "homepage": "https://github.com/pulseenergy/nohm-migrations",
-  "main": "index.js"
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  }
 }
